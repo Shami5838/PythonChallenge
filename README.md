@@ -29,9 +29,15 @@ The program begins by fetching a list of animal IDs from a paginated endpoint on
 
 ## File Structure
 main.py # Entrypoint script
+
 api.py  # Handles HTTP requests & retries
+
 models.py    # schemas for input/output
+
 transform.py # Logic for transforming data
+
 loader.py    # Batching and GET,POST logic
+
 requirements.txt # for requriements and dependencies
+
 README.md # For details 
